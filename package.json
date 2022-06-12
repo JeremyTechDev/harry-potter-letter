@@ -1,8 +1,8 @@
 {
-  "name": "create-harry-potter-letter",
+  "name": "harry-potter-letter",
   "version": "0.1.0",
   "private": true,
-  "homepage": "https://jeremy2918.github.io",
+  "homepage": "https://jeremy2918.github.io/harry-potter-letter/",
   "scripts": {
     "start": "react-scripts start",
     "build": "react-scripts build",
