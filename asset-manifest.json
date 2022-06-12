@@ -1,16 +1,16 @@
 {
   "files": {
-    "main.css": "/harry-potter-letter/static/css/main.31a3834a.css",
-    "main.js": "/harry-potter-letter/static/js/main.d851996b.js",
+    "main.css": "/harry-potter-letter/static/css/main.33b25435.css",
+    "main.js": "/harry-potter-letter/static/js/main.49aa5879.js",
     "static/media/handwritten.ttf": "/harry-potter-letter/static/media/handwritten.06637ca24812c5de0414.ttf",
     "static/media/harry-potter.ttf": "/harry-potter-letter/static/media/harry-potter.a65869c0c1a4b3d4fcfc.ttf",
     "static/media/lumos.ttf": "/harry-potter-letter/static/media/lumos.3c3bcb1d09f5f5596d52.ttf",
     "index.html": "/harry-potter-letter/index.html",
-    "main.31a3834a.css.map": "/harry-potter-letter/static/css/main.31a3834a.css.map",
-    "main.d851996b.js.map": "/harry-potter-letter/static/js/main.d851996b.js.map"
+    "main.33b25435.css.map": "/harry-potter-letter/static/css/main.33b25435.css.map",
+    "main.49aa5879.js.map": "/harry-potter-letter/static/js/main.49aa5879.js.map"
   },
   "entrypoints": [
-    "static/css/main.31a3834a.css",
-    "static/js/main.d851996b.js"
+    "static/css/main.33b25435.css",
+    "static/js/main.49aa5879.js"
   ]
 }
