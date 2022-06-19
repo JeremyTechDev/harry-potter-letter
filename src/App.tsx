@@ -1,4 +1,4 @@
-import { useEffect, useState } from 'react';
+import { useState } from 'react';
 import { toPng } from 'html-to-image';
 
 import Configurations from './Configurations';
@@ -7,7 +7,6 @@ import Editor from './Editor';
 import Preview from './Preview';
 
 const App = () => {
-  const [isVerticalView, setIsVerticalView] = useState(false);
   const [isLoading, setIsLoading] = useState(false);
   const [letterContent, setLetterContent] = useState(
     localStorage.getItem('letterContent') || '',
@@ -16,12 +15,6 @@ const App = () => {
     logo: LOGO_OPTIONS[0],
     signature: SIGNATURE_OPTIONS[0],
   });
-
-  useEffect(() => {
-    if (window.innerHeight > window.innerWidth) {
-      setIsVerticalView(true);
-    }
-  }, []);
 
   const onSave = () => {
     setIsLoading(true);
@@ -41,8 +34,13 @@ const App = () => {
       });
   };
 
-  if (isVerticalView) {
-    return <div>adios</div>;
+  if (window.innerWidth < 990) {
+    return (
+      <div className="w-screen h-screen flex flex-col justify-center items-center">
+        <img alt="Rotate Phone" src="./rotate.png" />
+        Rotate your device to landscape orientation.
+      </div>
+    );
   }
 
   return (
