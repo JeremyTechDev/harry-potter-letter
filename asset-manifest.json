@@ -1,16 +1,16 @@
 {
   "files": {
     "main.css": "/harry-potter-letter/static/css/main.5976e328.css",
-    "main.js": "/harry-potter-letter/static/js/main.f81e91f3.js",
+    "main.js": "/harry-potter-letter/static/js/main.21ee6478.js",
     "static/media/handwritten.ttf": "/harry-potter-letter/static/media/handwritten.06637ca24812c5de0414.ttf",
     "static/media/harry-potter.ttf": "/harry-potter-letter/static/media/harry-potter.a65869c0c1a4b3d4fcfc.ttf",
     "static/media/lumos.ttf": "/harry-potter-letter/static/media/lumos.3c3bcb1d09f5f5596d52.ttf",
     "index.html": "/harry-potter-letter/index.html",
     "main.5976e328.css.map": "/harry-potter-letter/static/css/main.5976e328.css.map",
-    "main.f81e91f3.js.map": "/harry-potter-letter/static/js/main.f81e91f3.js.map"
+    "main.21ee6478.js.map": "/harry-potter-letter/static/js/main.21ee6478.js.map"
   },
   "entrypoints": [
     "static/css/main.5976e328.css",
-    "static/js/main.f81e91f3.js"
+    "static/js/main.21ee6478.js"
   ]
 }
